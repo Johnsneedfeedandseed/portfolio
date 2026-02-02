@@ -181,3 +181,4 @@ Checklist de verificación (qué revisar al implementarlo)
 ---
 
 Si quieres, inserto automáticamente las tres URLs y los bullets de "patrones transferibles" en `project-inspiration.md` y añado las 2 decisiones concretas al `project-brief.md`. ¿Deseas que lo haga ahora? (Puedo añadirlas directamente en los archivos del repo.)
+AASAS
