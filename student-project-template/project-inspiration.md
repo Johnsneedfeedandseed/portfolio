@@ -223,4 +223,18 @@ _Example: Master CSS Grid for complex layouts, implement smooth scroll animation
 
 ---
 
+## Analysed portfolios
+
+- https://www.playdeadlock.com/oldgods
+- https://dinotaeng.com/
+- https://stevehustonart.com/
+
+## Patrones transferibles (sin copiar)
+
+- Jerarquía de foco: utilizar una pieza destacada (hero) por proyecto que guíe la atención antes de mostrar miniaturas secundarias.
+- Grid modular con gutters consistentes: definir una retícula responsive que preserve ritmo visual y alineación en todas las secciones.
+- Ficha de proyecto enriquecida: incluir título, año, técnica y un breve contexto para mejorar accesibilidad y SEO sin sobrecargar la página.
+
+---
+
 **Remember**: Inspiration is about finding what resonates with you and your project goals. Don't copy—synthesize ideas into something uniquely yours!

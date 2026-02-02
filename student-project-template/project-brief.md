@@ -43,11 +43,11 @@
 
 ### Responsive Design Strategy
 
-- [ ] Mobile-first approach
+- [X] Desktop-first approach
 - [ ] Flexible grid system
 - [ ] Scalable typography
 - [ ] Optimized images
-- [ ] Touch-friendly interactions
+- [X] Hover-friendly interactions
 
 ---
 
@@ -55,9 +55,9 @@
 
 ### Key Sections/Pages
 
-1.
-2.
-3.
+1. Home — Hero + curated gallery highlights (featured projects)
+2. Projects — Responsive grid of project cards with filters and tags
+3. Case Studies — Detailed project pages with process images and short write-ups
 
 ### Content Sources
 
@@ -77,6 +77,10 @@
 
 <!-- Describe your aesthetic approach -->
 
+- Decision (Layout): Implement a responsive modular grid for the Projects page with a hero/detail view for featured works (grid → selected hero). This preserves focus on single pieces while allowing quick scanning of the portfolio.
+
+- Decision (Content): Each project card includes: title, year, medium (materials/techniques) and 1-line summary; project detail pages include a short case study (1 paragraph), a process gallery, and tags. This supports the pedagogical goal of demonstrating process and technique.
+
 ### Color Palette
 
 <!-- List your main colors -->
@@ -88,6 +92,10 @@
 ### Inspiration/References
 
 <!-- List 2-3 websites or designs that inspire your approach -->
+https://www.playdeadlock.com/oldgods
+https://www.dota2.com/pastupdates
+https://dinotaeng.com/
+https://stevehustonart.com/
 
 ---
 
