@@ -12,7 +12,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--gradient-hero);
+	/*background: var(--gradient-hero);*/
+	background-image: url(https://ik.imagekit.io/27vh8b1mg/B8997C33-C2F2-4713-A365-2944BAD6FF01.png?updatedAt=1770636931657);
+	background-size: cover;
+	background-position: center;
 	text-align: center;
 	padding: var(--space-2xl);
 }

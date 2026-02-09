@@ -13,11 +13,11 @@
 	--container-padding: clamp(1rem, 5vw, 3rem);
 
 	/* ===== COLOR SYSTEM ===== */
-	/* Primary brand colors */
-	--color-primary: #1d4ed8;
-	--color-primary-hover: #1e40af;
-	--color-primary-light: #3b82f6;
-	--color-primary-dark: #1e3a8a;
+	/* Primary brand colors (updated to match brief) */
+	--color-primary: #0ea5a4; /* Teal - primary */
+	--color-primary-hover: #0b8f8f; /* ~10% darker */
+	--color-primary-light: #34d9d6;
+	--color-primary-dark: #0a6f6e;
 
 	/* Neutral colors for text and backgrounds */
 	--color-text-primary: #0f172a;
@@ -62,9 +62,9 @@
 	--font-weight-semibold: 600;
 	--font-weight-bold: 700;
 
-	/* Font families */
-	--font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-	--font-family-heading: var(--font-family-base);
+	/* Font families (updated to Inter + Playfair Display) */
+	--font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--font-family-heading: 'Playfair Display', var(--font-family-base);
 	--font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace;
 
 	/* ===== SPACING SCALE ===== */
@@ -107,16 +107,16 @@
 	--z-popover: 60;
 	--z-tooltip: 70;
 
-	/* ===== SCROLLYTELLING GRADIENTS ===== */
-	--gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-	--gradient-chapter-1: linear-gradient(135deg, #2c3e50, #34495e);
-	--gradient-chapter-2: linear-gradient(135deg, #c0392b, #8e44ad);
-	--gradient-chapter-3: linear-gradient(135deg, #27ae60, #2ecc71);
+	/* ===== SCROLLYTELLING GRADIENTS (updated to match palette) ===== */
+	--gradient-hero: linear-gradient(135deg, #0ea5a4 0%, #7c3aed 100%);
+	--gradient-chapter-1: linear-gradient(135deg, #3b82f6, #2563eb); /* blue gradient */
+	--gradient-chapter-2: linear-gradient(135deg, #ff6b6b, #e05555); /* coral/red */
+	--gradient-chapter-3: linear-gradient(135deg, #34d399, #059669); /* green */
 
 	/* ===== SCROLLYTELLING COLORS ===== */
-	--color-accent-blue: #3498db;
-	--color-accent-red: #e74c3c;
-	--color-accent-green: #2ecc71;
+	--color-accent-blue: #3b82f6;
+	--color-accent-red: #ff6b6b;
+	--color-accent-green: #34d399;
 	--color-overlay-dark: rgba(0, 0, 0, 0.4);
 	--color-card-bg: rgba(255, 255, 255, 0.05);
 	--color-card-border: rgba(255, 255, 255, 0.1);
