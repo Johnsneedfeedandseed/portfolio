@@ -1,131 +1,271 @@
-# Project Brief
+# Portfolio Brief - Ilustración Aplicada
 
-**Student:** [Your Name]  
-**Handle:** @[your-github-username]  
-**Course:** Web Design 2025 · Fall  
-**Date:** [Fill in date - Week 2]
-
----
-
-## Project Concept
-
-### What are you building?
-
-<!-- Describe your project in 2-3 sentences -->
-
-### Who is it for?
-
-<!-- Define your target audience -->
-
-### Why does it matter?
-
-<!-- Explain the purpose and value of your project -->
+**Estudiante:** [John Sneed]  
+**Handle:** @[Johnsneedfeedandseed]  
+**Curso:** WEB ATELIER (UDIT) · Ilustración Aplicada: Productos Digitales Web-App  
+**Fecha actualización:** [Última actualización]
 
 ---
 
-## Technical Approach
+## 📋 Concepto del Portfolio
 
-### Core Technologies
+### ¿Qué estás construyendo?
 
-- [ ] HTML5 (semantic markup)
-- [ ] CSS3 (responsive design)
-- [ ] JavaScript (if applicable)
-- [ ] Other: ****\_\_\_****
+<!-- Describe tu portfolio en 2-3 frases -->
+Un portfolio scrollytelling que separe mi trabajo entre sketches, commisions y proyectos ede clase, creando una experencia narrativa inmersiva
+---
 
-### Accessibility Goals
+### ¿Para quién es?
 
-- [ ] Semantic HTML structure
-- [ ] Proper heading hierarchy
-- [ ] Alt text for images
-- [ ] Keyboard navigation support
-- [ ] Color contrast compliance
-- [ ] Screen reader compatibility
-
-### Responsive Design Strategy
-
-- [X] Desktop-first approach
-- [ ] Flexible grid system
-- [ ] Scalable typography
-- [ ] Optimized images
-- [X] Hover-friendly interactions
+<!-- Define tu audiencia objetivo -->
+Editoriales de libro, particulares y directores de arte
 
 ---
 
-## Content Strategy
+### ¿Por qué importa?
 
-### Key Sections/Pages
-
-1. Home — Hero + curated gallery highlights (featured projects)
-2. Projects — Responsive grid of project cards with filters and tags
-3. Case Studies — Detailed project pages with process images and short write-ups
-
-### Content Sources
-
-<!-- Where will your content come from? -->
-
-### Multilingual Considerations
-
-- Primary language:
-- Secondary language (optional):
-- Translation strategy:
+<!-- Explica el propósito y valor -->
+Necesito una presencia digital profesional que no solo muestre mi trabajo, sino que comunique mi proceso creativo y filosofía de diseño de forma memorable.
 
 ---
 
-## Design Direction
+## 🎨 Identidad Visual
 
-### Visual Style
+### Estilo Visual Principal
 
-<!-- Describe your aesthetic approach -->
+<!-- Describe tu estética -->
+Minimalista con toques de color vibrante, mucho espacio en blanco, tipografía sans-serif limpia con detalles serif para títulos. Inspirado en revistas de diseño contemporáneo.
 
-- Decision (Layout): Implement a responsive modular grid for the Projects page with a hero/detail view for featured works (grid → selected hero). This preserves focus on single pieces while allowing quick scanning of the portfolio.
-
-- Decision (Content): Each project card includes: title, year, medium (materials/techniques) and 1-line summary; project detail pages include a short case study (1 paragraph), a process gallery, and tags. This supports the pedagogical goal of demonstrating process and technique.
-
-### Color Palette
-
-<!-- List your main colors -->
-
-### Typography
-
-<!-- What fonts/typeface approach will you use? -->
-
-### Inspiration/References
-
-<!-- List 2-3 websites or designs that inspire your approach -->
-https://www.playdeadlock.com/oldgods
-https://www.dota2.com/pastupdates
-https://dinotaeng.com/
-https://stevehustonart.com/
+**Palabras clave:** Limpio, Vibrante, Conceptual, Contemporáneo, Accesible
 
 ---
 
-## Success Metrics
+### Paleta de Colores
 
-### Week 4 Goals
+**Color Primario:** `#[hex]` - [Nombre/uso]  
+**Color Secundario:** `#[hex]` - [Nombre/uso]  
+**Acento 1:** `#[hex]` - [Para qué secciones]  
+**Acento 2:** `#[hex]` - [Para qué elementos]  
+**Acento 3:** `#[hex]` - [Contexto de uso]
 
-- [ ] Functional homepage
-- [ ] Basic responsive layout
-- [ ] Core content in place
-- [ ] Accessible markup
-
-### Final Project Goals
-
-- [ ] Fully responsive across devices
-- [ ] Meets WCAG 2.1 AA standards
-- [ ] Fast loading performance
-- [ ] Complete content
-- [ ] Polished visual design
+**Verificación de contraste:**
+- [ ] Texto sobre fondo cumple WCAG AA (4.5:1)
+- [ ] UI elements cumplen 3:1
+- [ ] Probado con WebAIM Contrast Checker
 
 ---
 
-## Reflection Questions
+### Tipografías
 
-### What excites you most about this project?
+**Para Títulos/Headings:**
+- Fuente: [Nombre de Google Font]
+- Peso: [ej. 700 Bold]
+- Uso: h1, h2, h3, hero title
 
-### What challenges do you anticipate?
+**Para Texto/Body:**
+- Fuente: [Nombre de Google Font]
+- Peso: [ej. 400 Regular, 600 Semibold]
+- Uso: párrafos, descripciones, labels
 
-### How does this project connect to your learning goals?
+**URLs de Google Fonts:**
+```
+[Pega aquí los enlaces completos de Google Fonts]
+```
 
 ---
 
-_This brief will evolve as your project develops. Update it as needed and reference it in your weekly commits._
+## 📝 Contenidos Preparados
+
+### Bio y Statement
+
+**Bio Corta (2-3 párrafos):**
+<!-- Pega tu bio aquí -->
+
+**Artist Statement (opcional, 1 párrafo):**
+<!-- Tu declaración artística -->
+
+**Lema/Tagline para Hero:**
+<Vitalismo y arte, una forma de vida>
+
+---
+
+### Estadísticas Personales
+
+Para la sección "About" (Statistics Display):
+
+1. **[Número]+ [Label]**  
+   _Ejemplo: 3+ Años de Experiencia_
+
+2. **[Número]+ [Label]**  
+   _Ejemplo: 50+ Proyectos Completados_
+
+3. **[Número]+ [Label]**  
+   _Ejemplo: 10+ Clientes Satisfechos_
+
+---
+
+### Áreas de Especialización
+
+Para la sección "My Work" (3 cards):
+
+#### Especialidad 1
+- **Título:** [ej. Ilustración Editorial]
+- **Descripción (1-2 frases):** [Qué haces en esta área]
+
+#### Especialidad 2
+- **Título:** [ej. Branding & Identidad]
+- **Descripción:** [...]
+
+#### Especialidad 3
+- **Título:** [ej. Arte Digital]
+- **Descripción:** [...]
+
+---
+
+### Proceso Creativo
+
+Para la sección Timeline (3 pasos):
+
+#### Paso 1
+- **Título:** [ej. Investigación y Concepto]
+- **Descripción:** [Qué haces en esta fase]
+
+#### Paso 2
+- **Título:** [ej. Bocetos y Exploración]
+- **Descripción:** [...]
+
+#### Paso 3
+- **Título:** [ej. Refinamiento y Entrega]
+- **Descripción:** [...]
+
+---
+
+### Herramientas y Skills
+
+Para la sección Skills (3 cards):
+
+**Card 1 - Herramientas Digitales:**
+- [Herramienta 1]
+- [Herramienta 2]
+- [Herramienta 3]
+- [Herramienta 4]
+
+**Card 2 - Técnicas Tradicionales:**
+- [Técnica 1]
+- [Técnica 2]
+- [Técnica 3]
+- [Técnica 4]
+
+**Card 3 - Especialidades:**
+- [Skill 1]
+- [Skill 2]
+- [Skill 3]
+- [Skill 4]
+
+---
+
+## 🖼️ Proyectos para Galería
+
+### Proyecto 1
+- **Imagen ImageKit:** [URL completa]
+- **Título:** [Nombre del proyecto]
+- **Descripción:** [1 frase]
+- **Categoría:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Descripción accesible para screen readers]
+
+### Proyecto 2
+[Repetir estructura]
+
+### Proyecto 3
+[Repetir estructura]
+
+<!-- Añadir mínimo 6 proyectos -->
+
+**Optimización ImageKit:**
+- [ ] URLs con transformaciones: `tr:w-400,h-300,q-80,f-auto`
+- [ ] Imágenes full-size para lightbox: `tr:w-1200`
+- [ ] Alt text descriptivo en todos
+
+---
+
+## 📞 Información de Contacto
+
+**Email:** [tu@email.com]
+
+**Redes Sociales:**
+- Instagram: [URL]
+- Behance: [URL]
+- LinkedIn: [URL]
+- Twitter/X: [URL] (opcional)
+- Otras: [URL]
+
+**CTA Final:**
+<!-- Mensaje para la sección Final CTA -->
+_Ejemplo: "¿Tienes un proyecto en mente? Me encantaría colaborar contigo."_
+
+---
+
+## 🎯 Objetivos Técnicos
+
+### Sesión 3 (S3)
+- [ ] Sistema de diseño personalizado (colores + fuentes)
+- [ ] Hero con contenido propio
+- [ ] About con bio y estadísticas reales
+- [ ] Work con especialidades definidas
+- [ ] Timeline con proceso documentado
+- [ ] Skills con herramientas actuales
+- [ ] Responsive verificado (320px-1440px)
+- [ ] Accesibilidad WCAG AA
+
+### Sesión 4 (S4)
+- [ ] Galería con mínimo 6 proyectos (ImageKit)
+- [ ] Lightbox funcional (opcional)
+- [ ] UX testing con compañero completado
+- [ ] Mejoras basadas en feedback implementadas
+- [ ] Meta tags Open Graph
+- [ ] Case study documentado
+- [ ] Portfolio lanzado y público
+
+---
+
+## 📊 Métricas de Éxito
+
+**Performance:**
+- [ ] Lighthouse Performance > 80
+- [ ] First Contentful Paint < 2s
+- [ ] Imágenes optimizadas con ImageKit
+
+**Accesibilidad:**
+- [ ] Lighthouse Accessibility 100
+- [ ] Contraste WCAG AA verificado
+- [ ] Navegación por teclado funcional
+- [ ] Reduced motion respetado
+
+**SEO:**
+- [ ] Title y description únicos
+- [ ] Open Graph meta tags
+- [ ] Alt text en todas las imágenes
+
+---
+
+## 💭 Reflexión
+
+### ¿Qué te emociona más de este portfolio?
+
+### ¿Qué desafíos anticipas?
+
+### ¿Cómo conecta con tus objetivos profesionales?
+
+---
+
+## 📅 Historial de Actualizaciones
+
+- **[Fecha]:** Creación inicial del brief
+- **[Fecha]:** Definida paleta de colores y tipografías
+- **[Fecha]:** Contenidos preparados (bio, stats, especialidades)
+- **[Fecha]:** Proyectos para galería organizados
+- **[Fecha]:** Portfolio lanzado
+
+---
+
+_Este brief es tu fuente de verdad para los prompts IA. Mantén este archivo actualizado y referéncialo en cada prompt con: "Ver contenidos preparados en project-brief.md"_

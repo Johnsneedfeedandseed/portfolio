@@ -1,6 +1,36 @@
-# Project Inspiration
+# Project Inspiration - Ilustración & Scrollytelling
 
-## Tendencias Destacadas en Diseño Web (2025)
+## 🎨 Mis Referencias Visuales
+
+### Portfolio de Ilustradores (Scrollytelling)
+
+<!-- Añade aquí los portfolios que te inspiran -->
+<!-- Formato: [Nombre](URL) - Qué te gusta de este portfolio -->
+
+1. [Nombre ilustrador](URL) - _Qué me inspira: [...]_
+2. [Nombre ilustrador](URL) - _Qué me inspira: [...]_
+3. [Nombre ilustrador](URL) - _Qué me inspira: [...]_
+
+### Capturas de Inspiración
+
+Guarda screenshots en `/images/inspiration/` de:
+- Layouts que te gustan
+- Combinaciones de color
+- Estilos tipográficos
+- Animaciones interesantes
+
+---
+
+## 📐 Tendencias de Diseño Web para Portfolios (2025)
+
+### 1. Scrollytelling & Narrativa Progresiva
+- **Descripción:** Historias que se despliegan mientras scrolleas
+- **Por qué funciona:** Mantiene atención, guía al usuario, crea experiencia memorable
+- **Ejemplo en tu template:** Hero → Chapters → Timeline → CTA
+
+### 2. Minimalismo con Toques de Color
+- **Descripción:** Espacios limpios con acentos de color estratégicos
+- **Aplicación:** Fondos neutros, color en CTAs y elementos clave
 
 ### 1. Brutalismo & Neo-Brutalismo
 - **Descripción:** Estética cruda y directa, tipografía llamativa, contraste fuerte, elementos sin pulir.
@@ -220,20 +250,6 @@ _Example: Master CSS Grid for complex layouts, implement smooth scroll animation
 4. **Share** your moodboard with classmates for feedback
 5. **Refine** your concept based on feedback
 6. **Start** sketching wireframes or creating a Figma prototype
-
----
-
-## Analysed portfolios
-
-- https://www.playdeadlock.com/oldgods
-- https://dinotaeng.com/
-- https://stevehustonart.com/
-
-## Patrones transferibles (sin copiar)
-
-- Jerarquía de foco: utilizar una pieza destacada (hero) por proyecto que guíe la atención antes de mostrar miniaturas secundarias.
-- Grid modular con gutters consistentes: definir una retícula responsive que preserve ritmo visual y alineación en todas las secciones.
-- Ficha de proyecto enriquecida: incluir título, año, técnica y un breve contexto para mejorar accesibilidad y SEO sin sobrecargar la página.
 
 ---
 
