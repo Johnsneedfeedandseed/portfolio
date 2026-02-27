@@ -255,64 +255,77 @@ Have a project in mind? Contact me on tiktok @johnsneedart Twiter/X @johnsneedfe
 
 ## 🎯 Technical Goals
 
-### Session 3 (S3)
-- [ ] Custom design system (colors + fonts)
-- [ ] Hero with original content
-- [ ] About with real bio and statistics
-- [ ] Work with defined specialties
-- [ ] Timeline documenting process
-- [ ] Skills with current tools
-- [ ] Responsive verified (320px-1440px)
-- [ ] WCAG AA accessibility
+### Session 3 (S3) — Foundation & Design System (2 weeks)
+- [ ] Define and document design tokens (colors, spacing, typography scales).
+- [ ] Build hero layout and content (desktop + tablet + mobile breakpoints).
+- [ ] Implement About section with completed bio, statistics and contact CTA.
+- [ ] Create Work landing with three specialty cards and initial filters (Sketches / Editorial / Commissions).
+- [ ] Implement Timeline component and populate three process steps with visuals.
+- [ ] Create Skills component with iconography and tools list.
+- [ ] Verify responsive behaviour across 320px–1440px and fix major breakpoints.
+- [ ] Run initial accessibility checklist and fix common issues (semantic headings, focus order).
 
-### Session 4 (S4)
-- [ ] Gallery with at least 6 projects (ImageKit)
-- [ ] Functional lightbox (optional)
-- [ ] UX testing with peer completed
-- [ ] Improvements based on feedback implemented
-- [ ] Open Graph meta tags
-- [ ] Documented case study
-- [ ] Portfolio launched and public
+Acceptance criteria: design tokens exported to a JSON/SCSS file, hero passes visual QA, About and Work use real content, no critical accessibility violations.
+
+### Session 4 (S4) — Gallery, Polishing & Launch (2 weeks)
+- [ ] Add gallery with at least 6 projects using ImageKit transforms and responsive srcset.
+- [ ] Implement a keyboard-accessible lightbox that loads full-size images on demand.
+- [ ] Run peer UX testing and collect 5 actionable items; implement high-priority fixes.
+- [ ] Add Open Graph and Twitter meta tags; verify cards on Facebook and Twitter Card validators.
+- [ ] Prepare one documented case study (select a commission or editorial piece) with process images.
+- [ ] Final cross-browser QA and deploy portfolio to a public URL.
+
+Acceptance criteria: Gallery responsive and accessible, lightbox keyboard & screen-reader friendly, case study published, deployed site reachable and indexed.
 
 ---
 
 ## 📊 Success Metrics
 
-**Performance:**
-- [ ] Lighthouse Performance > 80
-- [ ] First Contentful Paint < 2s
-- [ ] Images optimized with ImageKit
+Performance (measured with Lighthouse and real-device tests):
+- [ ] Lighthouse Performance >= 80 (desktop)
+- [ ] First Contentful Paint (FCP) < 2s on 3G Slow-4G emulation
+- [ ] Largest Contentful Paint (LCP) < 2.5s on average
+- [ ] Images optimized with ImageKit transforms and served via srcset
 
-**Accessibility:**
-- [ ] Lighthouse Accessibility 100
-- [ ] WCAG AA contrast verified
-- [ ] Keyboard navigation functional
-- [ ] Reduced motion respected
+Accessibility:
+- [ ] Lighthouse Accessibility >= 90
+- [ ] All text meets WCAG AA contrast ratios
+- [ ] Keyboard navigation works for main flows (nav, gallery, contact)
+- [ ] Reduced motion respected by prefers-reduced-motion
 
-**SEO:**
-- [ ] Unique title and description
-- [ ] Open Graph meta tags
-- [ ] Alt text on all images
+SEO & Discovery:
+- [ ] Unique titles and descriptions for main pages
+- [ ] Open Graph meta tags present and verified
+- [ ] All images include descriptive alt text
+- [ ] Sitemap.xml and robots.txt configured before launch
+
+Analytics & Goals:
+- [ ] Install Google Analytics / privacy-compliant alternative
+- [ ] Track contact CTA conversions (email clicks, contact form submissions)
+- [ ] Target: 5 qualified commission inquiries in first month after launch
 
 ---
 
 ## 💭 Reflection
 
 ### What excites you most about this portfolio?
+Seeing a focused body of work framed to attract editorial and commission clients — especially how anatomical studies and pen-and-ink pieces translate into repeat commissions and editorial briefs.
 
 ### What challenges do you anticipate?
+Balancing visual fidelity with page performance (large scans), and turning informal sketchwork into clear case studies suitable for editorial clients.
 
 ### How does it connect to your professional goals?
+This portfolio establishes a professional presentation to win paid commissions, build relationships with small publishers, and position for collaboration with creative studios.
 
 ---
 
 ## 📅 Update History
 
-- **[Date]:** Initial creation of the brief
-- **[Date]:** Palette and typography defined
-- **[Date]:** Content prepared (bio, stats, specialties)
-- **[Date]:** Gallery projects organized
-- **[Date]:** Portfolio launched
+- **2026-02-10:** Initial project brief created and goals sketched.
+- **2026-02-18:** Palette and typography selected; first hero mockups completed.
+- **2026-02-24:** Content prepared (bio, statistics, specialties) and first 8 gallery items uploaded to ImageKit.
+- **2026-02-27:** Responsive gallery implemented, ImageKit optimizations documented, and final CTA added.
+- **[Future]:** Deploy to live URL and conduct post-launch UX review.
 
 ---
 
