@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start static server and open index.html",
+			"type": "shell",
+			"command": "npx -y http-server . -p 5500 --silent; Start-Process \"http://127.0.0.1:5500/index.html\"",
+			"isBackground": true,
+			"problemMatcher": [
+				"$eslint-stylish"
+			]
+		}
+	]
+}
