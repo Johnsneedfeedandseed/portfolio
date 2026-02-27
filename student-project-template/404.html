@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Page not found — 404</title>
+  <!-- Fallback meta refresh (3s) -->
+  <meta http-equiv="refresh" content="3;url=/index.html">
+  <style>
+    :root{--bg:#ffffff;--fg:#111;--muted:#6b6b6b}
+    html,body{height:100%;margin:0}
+    body{display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif}
+    .card{max-width:720px;padding:28px;border-radius:8px;text-align:center}
+    h1{font-size:28px;margin:0 0 10px}
+    p{color:var(--muted);margin:0 0 18px}
+    a.button{display:inline-block;padding:10px 16px;background:#111;color:#fff;border-radius:6px;text-decoration:none}
+    small{display:block;margin-top:12px;color:var(--muted)}
+  </style>
+  <script>
+    // Redirect to index.html and ensure we're at the top of the page.
+    // Use replace() so the 404 doesn't stay in history.
+    function redirect() {
+      try{
+        // ensure the browser scrolls to top before navigating
+        window.scrollTo(0,0);
+      }catch(e){}
+      window.location.replace('/index.html');
+    }
+    // Redirect after short delay (3s) to allow user to read message.
+    window.addEventListener('DOMContentLoaded', function(){
+      // If the site is served from a subpath, try a fallback to relative index
+      var fallback = function(){ window.location.replace('index.html'); };
+      setTimeout(function(){
+        // prefer absolute root index first
+        redirect();
+        // if that failed, try relative fallback after a short pause
+        setTimeout(fallback, 500);
+      }, 3000);
+    });
+  </script>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>404 — Page not found</h1>
+    <p>The page you were looking for doesn't exist or the link is incorrect. You'll be redirected to the homepage shortly.</p>
+    <p>
+      <a class="button" href="/index.html" onclick="event.preventDefault(); redirect();">Go to homepage now</a>
+    </p>
+    <small>If you continue to see this page, please check the URL or contact <a href="mailto:johnsneedbiz@gmail.com">johnsneedbiz@gmail.com</a>.</small>
+  </main>
+</body>
+</html>
