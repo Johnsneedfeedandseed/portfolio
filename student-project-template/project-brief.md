@@ -1,273 +1,301 @@
 # Portfolio Brief - Ilustración Aplicada
 
-**Estudiante:** [John Sneed]  
-**Handle:** @[Johnsneedfeedandseed]  
-**Curso:** WEB ATELIER (UDIT) · Ilustración Aplicada: Productos Digitales Web-App  
-**Fecha actualización:** [Última actualización]
+**Student:** Joaquin Arriola  
+**Handle:** @Johnsneedart 
+**Course:** WEB ATELIER (UDIT) · Ilustración Aplicada: Productos Digitales Web-App  
+**Last update:** 27-02-2026
 
 ---
 
-## 📋 Concepto del Portfolio
+## Project Concept
 
-### ¿Qué estás construyendo?
-
-<!-- Describe tu portfolio en 2-3 frases -->
-Un portfolio scrollytelling que separe mi trabajo entre sketches, commisions y proyectos ede clase, creando una experencia narrativa inmersiva
+### What are you building?
+A scrollytelling portfolio which intent is drive potential art buyers whether that be editorials or particulars looking for commisions and a spaces dedicated to sketches. 
 ---
 
-### ¿Para quién es?
+### Who is it for?
 
-<!-- Define tu audiencia objetivo -->
-Editoriales de libro, particulares y directores de arte
+- Individuals seeking commissions: private clients requesting custom work (book illustrations, portraits, bespoke pieces).
 
----
+- Publishing houses and book publishers: publishers needing editorial illustration, cover art, and assets for print and digital publications.
 
-### ¿Por qué importa?
-
-<!-- Explica el propósito y valor -->
-Necesito una presencia digital profesional que no solo muestre mi trabajo, sino que comunique mi proceso creativo y filosofía de diseño de forma memorable.
+- Professional studios and creative agencies: design studios, art directors, and agencies outsourcing illustration for commercial projects and branding.
 
 ---
 
-## 🎨 Identidad Visual
+### Why does it matter?
 
-### Estilo Visual Principal
+The portfolio turns visitors into clients by showcasing work, process and contact paths clearly. It helps each target audience quickly: 
 
-<!-- Describe tu estética -->
-Minimalista con toques de color vibrante, mucho espacio en blanco, tipografía sans-serif limpia con detalles serif para títulos. Inspirado en revistas de diseño contemporáneo.
+- See relevant examples and applications (commissions, editorial, branding).
+- Assess fit and professionalism through case pieces, process notes and clear visuals.
+- Act: request a commission, contact for publishing work, or propose studio collaborations via obvious CTAs.
 
-**Palabras clave:** Limpio, Vibrante, Conceptual, Contemporáneo, Accesible
+This reduces friction, improves discoverability (SEO & performance) and builds trust — increasing the likelihood of paid work and long-term partnerships.
 
----
 
-### Paleta de Colores
-
-**Color Primario:** `#[hex]` - [Nombre/uso]  
-**Color Secundario:** `#[hex]` - [Nombre/uso]  
-**Acento 1:** `#[hex]` - [Para qué secciones]  
-**Acento 2:** `#[hex]` - [Para qué elementos]  
-**Acento 3:** `#[hex]` - [Contexto de uso]
-
-**Verificación de contraste:**
-- [ ] Texto sobre fondo cumple WCAG AA (4.5:1)
-- [ ] UI elements cumplen 3:1
-- [ ] Probado con WebAIM Contrast Checker
 
 ---
 
-### Tipografías
+## 🎨 Visual Identity
 
-**Para Títulos/Headings:**
-- Fuente: [Nombre de Google Font]
-- Peso: [ej. 700 Bold]
-- Uso: h1, h2, h3, hero title
+### Main Visual Style
 
-**Para Texto/Body:**
-- Fuente: [Nombre de Google Font]
-- Peso: [ej. 400 Regular, 600 Semibold]
-- Uso: párrafos, descripciones, labels
+<!-- Describe your aesthetic -->
+Minimalist with touches of vibrant color, generous white space, clean sans-serif typography with serif details for headings. Inspired by contemporary design magazines.
 
-**URLs de Google Fonts:**
-```
-[Pega aquí los enlaces completos de Google Fonts]
-```
-<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Limelight&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
----
-
-## 📝 Contenidos Preparados
-
-### Bio y Statement
-
-**Bio Corta (2-3 párrafos):**
-<!-- Pega tu bio aquí -->
-
-**Artist Statement (opcional, 1 párrafo):**
-<!-- Tu declaración artística -->
-
-**Lema/Tagline para Hero:**
-<Vitalismo y arte, una forma de vida>
+**Keywords:** Clean, Vibrant, Conceptual, Contemporary, Accessible
 
 ---
 
-### Estadísticas Personales
+### Color Palette
 
-Para la sección "About" (Statistics Display):
+**Primary Color:** #FFFFFF - White 
+**Secondary Color:** #C0C0C0 - Silver  
+**Accent 1:** #808080 - Texts
+**Accent 2:** #add8adff
+**Accent 3:** #b1d855ff
 
-1. **[Número]+ [Label]**  
-   _Ejemplo: 3+ Años de Experiencia_
-
-2. **[Número]+ [Label]**  
-   _Ejemplo: 50+ Proyectos Completados_
-
-3. **[Número]+ [Label]**  
-   _Ejemplo: 10+ Clientes Satisfechos_
-
----
-
-### Áreas de Especialización
-
-Para la sección "My Work" (3 cards):
-
-#### Especialidad 1
-- **Título:** [ej. Ilustración Editorial]
-- **Descripción (1-2 frases):** [Qué haces en esta área]
-
-#### Especialidad 2
-- **Título:** [ej. Branding & Identidad]
-- **Descripción:** [...]
-
-#### Especialidad 3
-- **Título:** [ej. Arte Digital]
-- **Descripción:** [...]
+**Contrast verification:**
+- [ ] Body text over background meets WCAG AA (4.5:1)
+- [ ] UI elements meet 3:1
+- [ ] Tested with WebAIM Contrast Checker
 
 ---
 
-### Proceso Creativo
+### Typography
 
-Para la sección Timeline (3 pasos):
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-#### Paso 1
-- **Título:** [ej. Investigación y Concepto]
-- **Descripción:** [Qué haces en esta fase]
+## 📝 Prepared Content
 
-#### Paso 2
-- **Título:** [ej. Bocetos y Exploración]
-- **Descripción:** [...]
+### Bio and Statement
 
-#### Paso 3
-- **Título:** [ej. Refinamiento y Entrega]
-- **Descripción:** [...]
+**Short Bio (2-3 paragraphs):**
+Joaquin Arriola (handle @Johnsneedart) is an illustrator with over three years of focused practice in observational and anatomical drawing. He works primarily in grayscale, translating complex forms into clear, expressive studies for editorial, portrait, and commission-based projects. Over this period Joaquin has completed numerous commissions for private clients and small publishers, developing a concise visual language centered on form, contrast and narrative clarity.
 
----
+Joaquin combines traditional pen-and-ink techniques with careful value studies to create work that is both precise and emotionally resonant. He approaches each commission with a collaborative mindset, offering clear timelines, progress sketches, and responsive revisions to ensure the final piece meets editorial or client needs.
 
-### Herramientas y Skills
+**Artist Statement (optional, 1 paragraph):**
+My practice investigates the structure and movement of the human figure through tonal study and line. Working in pen, ink and grayscale, I aim to communicate anatomical truth and subtle gesture while preserving an immediate, handcrafted quality that supports storytelling across editorial and commissioned work.
 
-Para la sección Skills (3 cards):
-
-**Card 1 - Herramientas Digitales:**
-- [Herramienta 1]
-- [Herramienta 2]
-- [Herramienta 3]
-- [Herramienta 4]
-
-**Card 2 - Técnicas Tradicionales:**
-- [Técnica 1]
-- [Técnica 2]
-- [Técnica 3]
-- [Técnica 4]
-
-**Card 3 - Especialidades:**
-- [Skill 1]
-- [Skill 2]
-- [Skill 3]
-- [Skill 4]
+**Hero Tagline:**
+<Vitalism and art, a way of life>
 
 ---
 
-## 🖼️ Proyectos para Galería
+### Personal Statistics
 
-### Proyecto 1
-- **Imagen ImageKit:** [URL completa]
-- **Título:** [Nombre del proyecto]
-- **Descripción:** [1 frase]
-- **Categoría:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Descripción accesible para screen readers]
+For the "About" section (Statistics Display):
 
-### Proyecto 2
-[Repetir estructura]
+1. **3+ Years**  
+   _Drawing and illustration practice_
 
-### Proyecto 3
-[Repetir estructura]
+2. **80+ Commissions**  
+   _Editorial, portraits and bespoke pieces completed_
 
-<!-- Añadir mínimo 6 proyectos -->
-
-**Optimización ImageKit:**
-- [ ] URLs con transformaciones: `tr:w-400,h-300,q-80,f-auto`
-- [ ] Imágenes full-size para lightbox: `tr:w-1200`
-- [ ] Alt text descriptivo en todos
+3. **60+ Returning/Satisfied Clients**  
+   _Private clients and repeat collaborators_
 
 ---
 
-## 📞 Información de Contacto
+### Areas of Expertise
 
-**Email:** [tu@email.com]
+For the "My Work" section (3 cards):
 
-**Redes Sociales:**
-- Instagram: [URL]
-- Behance: [URL]
-- LinkedIn: [URL]
-- Twitter/X: [URL] (opcional)
-- Otras: [URL]
+#### Specialty 1
+- **Title:** Gestural drawings
+- **Description (1-2 sentences):** Capture the essence of figures and movement with minimal, confident marks that retain the integrity of form and proportion.
 
-**CTA Final:**
-<!-- Mensaje para la sección Final CTA -->
-_Ejemplo: "¿Tienes un proyecto en mente? Me encantaría colaborar contigo."_
+#### Specialty 2
+- **Title:** Anatomical grayscale studies
+- **Description:** Detailed value-driven drawings focused on anatomy and structure, optimized for editorial use, reference material, and high-quality prints.
 
----
-
-## 🎯 Objetivos Técnicos
-
-### Sesión 3 (S3)
-- [ ] Sistema de diseño personalizado (colores + fuentes)
-- [ ] Hero con contenido propio
-- [ ] About con bio y estadísticas reales
-- [ ] Work con especialidades definidas
-- [ ] Timeline con proceso documentado
-- [ ] Skills con herramientas actuales
-- [ ] Responsive verificado (320px-1440px)
-- [ ] Accesibilidad WCAG AA
-
-### Sesión 4 (S4)
-- [ ] Galería con mínimo 6 proyectos (ImageKit)
-- [ ] Lightbox funcional (opcional)
-- [ ] UX testing con compañero completado
-- [ ] Mejoras basadas en feedback implementadas
-- [ ] Meta tags Open Graph
-- [ ] Case study documentado
-- [ ] Portfolio lanzado y público
+#### Specialty 3
+- **Title:** Pen & ink illustration
+- **Description:** Clean, expressive ink work—line, hatching and wash—used to build texture, depth and clear narrative compositions.
 
 ---
 
-## 📊 Métricas de Éxito
+### Creative Process
+
+For the Timeline section (3 steps):
+
+#### Step 1
+- **Title:** Research & Concept
+- **Description:** Gather references, clarify the brief and define the visual approach (tone, composition, and intended reproduction size).
+
+#### Step 2
+- **Title:** Sketching & Exploration
+- **Description:** Quick gestural studies and compositional thumbnails followed by a refined pencil or digital sketch for client approval.
+
+#### Step 3
+- **Title:** Refinement & Delivery
+- **Description:** Finalize ink and grayscale rendering, scan or digitize at production resolution, apply any requested revisions and deliver print- and web-ready files.
+
+---
+
+### Tools and Skills
+
+For the Skills section (3 cards):
+
+**Card 1 - Digital Tools:**
+- Procreate
+- Adobe Photoshop
+- Clip Studio Paint
+- Affinity Photo
+
+**Card 2 - Traditional Techniques:**
+- Pen & ink (dip pens, technical pens)
+- Graphite and charcoal
+- Ink wash and grayscale wash
+- Mixed-media on paper
+
+**Card 3 - Specialties:**
+- Anatomical drawing
+- Gestural studies
+- Portraiture
+- Editorial illustration
+
+---
+
+## 🖼️ Gallery Projects
+
+### Project 1
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+### Project 2
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+### Project 3
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+### Project 4
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+### Project 5
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+### Project 6
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+### Project 6
+- **Image ImageKit:** [Full URL]
+- **Title:** [Project name]
+- **Description:** [1 sentence]
+- **Category:** [Editorial/Digital/Branding/etc]
+- **Alt Text:** [Accessible description for screen readers]
+
+<!-- Add at least 6 projects -->
+
+**ImageKit optimization:**
+- [ ] URLs with transforms: `tr:w-400,h-300,q-80,f-auto`
+- [ ] Full-size images for lightbox: `tr:w-1200`
+- [ ] Descriptive alt text on all
+
+---
+
+## 📞 Contact Information
+
+**Email:** johnsneedbiz@gmail.com
+
+**Social Media:**
+- Instagram: https://www.instagram.com/john_sneed_art/
+- TikTok: tiktok.com/@johnsneedart
+- Twitter/X: https://x.com/johnsneedfeed
+
+**Final CTA:**
+<!-- Message for the final CTA section -->
+_Example: "Have a project in mind? I'd love to collaborate."_
+
+---
+
+## 🎯 Technical Goals
+
+### Session 3 (S3)
+- [ ] Custom design system (colors + fonts)
+- [ ] Hero with original content
+- [ ] About with real bio and statistics
+- [ ] Work with defined specialties
+- [ ] Timeline documenting process
+- [ ] Skills with current tools
+- [ ] Responsive verified (320px-1440px)
+- [ ] WCAG AA accessibility
+
+### Session 4 (S4)
+- [ ] Gallery with at least 6 projects (ImageKit)
+- [ ] Functional lightbox (optional)
+- [ ] UX testing with peer completed
+- [ ] Improvements based on feedback implemented
+- [ ] Open Graph meta tags
+- [ ] Documented case study
+- [ ] Portfolio launched and public
+
+---
+
+## 📊 Success Metrics
 
 **Performance:**
 - [ ] Lighthouse Performance > 80
 - [ ] First Contentful Paint < 2s
-- [ ] Imágenes optimizadas con ImageKit
+- [ ] Images optimized with ImageKit
 
-**Accesibilidad:**
+**Accessibility:**
 - [ ] Lighthouse Accessibility 100
-- [ ] Contraste WCAG AA verificado
-- [ ] Navegación por teclado funcional
-- [ ] Reduced motion respetado
+- [ ] WCAG AA contrast verified
+- [ ] Keyboard navigation functional
+- [ ] Reduced motion respected
 
 **SEO:**
-- [ ] Title y description únicos
+- [ ] Unique title and description
 - [ ] Open Graph meta tags
-- [ ] Alt text en todas las imágenes
+- [ ] Alt text on all images
 
 ---
 
-## 💭 Reflexión
+## 💭 Reflection
 
-### ¿Qué te emociona más de este portfolio?
+### What excites you most about this portfolio?
 
-### ¿Qué desafíos anticipas?
+### What challenges do you anticipate?
 
-### ¿Cómo conecta con tus objetivos profesionales?
-
----
-
-## 📅 Historial de Actualizaciones
-
-- **[Fecha]:** Creación inicial del brief
-- **[Fecha]:** Definida paleta de colores y tipografías
-- **[Fecha]:** Contenidos preparados (bio, stats, especialidades)
-- **[Fecha]:** Proyectos para galería organizados
-- **[Fecha]:** Portfolio lanzado
+### How does it connect to your professional goals?
 
 ---
 
-_Este brief es tu fuente de verdad para los prompts IA. Mantén este archivo actualizado y referéncialo en cada prompt con: "Ver contenidos preparados en project-brief.md"_
+## 📅 Update History
+
+- **[Date]:** Initial creation of the brief
+- **[Date]:** Palette and typography defined
+- **[Date]:** Content prepared (bio, stats, specialties)
+- **[Date]:** Gallery projects organized
+- **[Date]:** Portfolio launched
+
+---
+
+_This brief is your source of truth for AI prompts. Keep this file updated and reference it in each prompt with: "See prepared content in project-brief.md"_
