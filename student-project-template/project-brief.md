@@ -163,60 +163,79 @@ For the Skills section (3 cards):
 ## 🖼️ Gallery Projects
 
 ### Project 1
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/IMG_20260212_180325.jpg?updatedAt=1772200145361
+- **Title:** Reclining Figure — Ink & Wash Study
+- **Description:** Rapid observational study exploring weight, balance and atmospheric wash to read form.
+- **Category:** Sketch/studies
+- **Alt Text:** Pen-and-ink reclining figure study with ink wash showing tonal values and loose gestural lines.
 
 ### Project 2
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/IMG_20260209_150255.jpg?updatedAt=1772200142774
+- **Title:** Torso Anatomy — Grayscale Study
+- **Description:** Focused anatomical study of the torso emphasizing planes, muscle landmarks and mid-tone transitions.
+- **Category:** Sketch/studies
+- **Alt Text:** Grayscale anatomical torso drawing highlighting muscle structure and value shifts.
 
 ### Project 3
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/IMG_20260212_180333.jpg?updatedAt=1772200142359
+- **Title:** Seated Gesture — Line Exploration
+- **Description:** Quick gestural sketch capturing posture and rhythmic line economy for rapid concepting.
+- **Category:** Sketch/studies
+- **Alt Text:** Quick seated figure gesture sketch with economical lines showing posture and movement.
 
 ### Project 4
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/IMG_20260217_181141.jpg?updatedAt=1772200141853
+- **Title:** Head & Expression — Value Study
+- **Description:** Head study that tests subtle value relationships to define expression and volume.
+- **Category:** Sketch/studies
+- **Alt Text:** Pen-and-ink head study focusing on facial planes, expression and gradual tonal modeling.
 
 ### Project 5
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/IMG_20260217_172255.jpg?updatedAt=1772200131202
+- **Title:** Hands — Structure and Shadow
+- **Description:** Detailed hand study exploring bone structure, foreshortening and cast shadows in grayscale.
+- **Category:** Sketch/studies
+- **Alt Text:** Detailed grayscale drawing of hands showing structure, foreshortening and shadow shapes.
 
 ### Project 6
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/IMG_20260212_180331.jpg?updatedAt=1772200127079
+- **Title:** Light on Form — Contrast Study
+- **Description:** High-contrast exercise to read form through bold lights and deep shadows using ink techniques.
+- **Category:** Sketch/studies
+- **Alt Text:** High-contrast ink study demonstrating light and shadow to articulate three-dimensional form.
 
-### Project 6
-- **Image ImageKit:** [Full URL]
-- **Title:** [Project name]
-- **Description:** [1 sentence]
-- **Category:** [Editorial/Digital/Branding/etc]
-- **Alt Text:** [Accessible description for screen readers]
+### Project 7
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/8rg8yq.jpg?updatedAt=1772200063480
+- **Title:** Figure Composition — Thumbnail Studies
+- **Description:** Series of small composition sketches testing relationships between figure, negative space and focal points.
+- **Category:** Sketch/studies
+- **Alt Text:** Collection of small thumbnail sketches showing figure composition and negative-space exploration.
 
-<!-- Add at least 6 projects -->
+### Project 8
+- **Image ImageKit:** https://ik.imagekit.io/27vh8b1mg/qqwrld.jpg?updatedAt=1772200061432
+- **Title:** Quick Studies Compilation
+- **Description:** Assorted quick studies that document gesture, proportion exercises and material experiments.
+- **Category:** Sketch/studies
+- **Alt Text:** Assorted quick sketches and studies combining gesture, proportion tests and ink experiments.
 
 **ImageKit optimization:**
-- [ ] URLs with transforms: `tr:w-400,h-300,q-80,f-auto`
-- [ ] Full-size images for lightbox: `tr:w-1200`
-- [ ] Descriptive alt text on all
+- [ ] Create responsive variants for each image (thumbnail, medium, full):
+  - Thumbnail: `tr:w-400,h-300,q-80,f-auto`
+  - Medium: `tr:w-800,q-80,f-auto`
+  - Full / Lightbox: `tr:w-1200,q-85,f-auto`
+- [ ] Serve responsive images with srcset + sizes so the browser chooses the best transform. Example:
+
+```html
+srcset="<url>?tr:w-400 400w, <url>?tr:w-800 800w, <url>?tr:w-1200 1200w" sizes="(max-width:600px)100vw,33vw"
+```
+- [ ] Include width/height attributes (or CSS aspect-ratio) to avoid layout shifts (CLS).
+- [ ] Lazy-load non-critical images (`loading="lazy"`) and prioritize hero/above-the-fold images (`fetchpriority="high"`).
+- [ ] Use a low-quality image placeholder (LQIP) or a tiny blurred transform while the full image loads, then swap to the chosen transform.
+- [ ] Ensure every image has concise, descriptive alt text (aim for ≤125 characters). For decorative images use `alt=""` and aria-hidden if needed.
+- [ ] Use sensible quality (q) trade-offs: 70–85 for web thumbnails, 85+ for print or critical lightbox views.
+- [ ] Version assets or use the `updatedAt` param to bust caches when replacing files.
+- [ ] Wrap images with `<figure>`/`<figcaption>` when a caption or credit is required and ensure keyboard-accessible lightbox controls.
+- [ ] Test the result with Lighthouse (Performance, LCP, CLS) and Accessibility checks; iterate if needed.
 
 ---
 
@@ -225,13 +244,12 @@ For the Skills section (3 cards):
 **Email:** johnsneedbiz@gmail.com
 
 **Social Media:**
-- Instagram: https://www.instagram.com/john_sneed_art/
+
 - TikTok: tiktok.com/@johnsneedart
 - Twitter/X: https://x.com/johnsneedfeed
 
 **Final CTA:**
-<!-- Message for the final CTA section -->
-_Example: "Have a project in mind? I'd love to collaborate."_
+Have a project in mind? Contact me on tiktok @johnsneedart Twiter/X @johnsneedfeed or email johnsneedbiz@gmail.com — I respond to commission, editorial and collaboration inquiries within 48 hours.
 
 ---
 
