@@ -12,12 +12,27 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*background: var(--gradient-hero);*/
-	background-image: url(https://ik.imagekit.io/27vh8b1mg/B8997C33-C2F2-4713-A365-2944BAD6FF01.png?updatedAt=1770636931657);
+	/* background updated to use provided ImageKit hero image */
+	background-image: url('https://ik.imagekit.io/27vh8b1mg/5AC2B5A6-2F1A-45F7-B0AC-B5A01B838CA4.jpeg?updatedAt=1770636930952');
 	background-size: cover;
 	background-position: center;
 	text-align: center;
 	padding: var(--space-2xl);
+	position: relative;
+}
+
+/* dark overlay to keep white text readable */
+.hero::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: rgba(0,0,0,0.35);
+	pointer-events: none;
+}
+
+.hero > div {
+	position: relative; /* keep content above overlay */
+	z-index: 2;
 }
 
 .hero h1 {
@@ -32,7 +47,7 @@
 
 .hero p {
 	font-size: var(--font-size-lg);
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.95);
 	max-width: 600px;
 	margin: 0 auto var(--space-xl);
 	opacity: 0;
@@ -96,31 +111,31 @@
 
 /* ===== CHAPTER THEMES ===== */
 .chapter-1 {
-	background: var(--gradient-chapter-1);
+	background: linear-gradient(180deg, var(--color-bg-light) 0%, #eef2f6 100%);
 }
 
 .chapter-1 h2 {
-	color: var(--color-accent-blue);
+	color: var(--color-text-primary);
 	font-size: var(--font-size-3xl);
 	margin-bottom: var(--space-md);
 }
 
 .chapter-2 {
-	background: var(--gradient-chapter-2);
+	background: linear-gradient(180deg, #f6f8fa 0%, var(--color-bg-light) 100%);
 }
 
 .chapter-2 h2 {
-	color: var(--color-accent-red);
+	color: var(--color-text-primary);
 	font-size: var(--font-size-3xl);
 	margin-bottom: var(--space-md);
 }
 
 .chapter-3 {
-	background: var(--gradient-chapter-3);
+	background: linear-gradient(180deg, #f1f5f9 0%, #eef6f3 100%);
 }
 
 .chapter-3 h2 {
-	color: var(--color-accent-green);
+	color: var(--color-text-primary);
 	font-size: var(--font-size-3xl);
 	margin-bottom: var(--space-md);
 }
@@ -156,16 +171,16 @@
 }
 
 .stat-number {
+	color: var(--color-text-primary);
 	font-size: var(--font-size-4xl);
 	font-weight: var(--font-weight-bold);
-	color: #fff;
 	display: block;
 	margin-bottom: var(--space-sm);
 }
 
 .stat-label {
+	color: var(--color-text-secondary);
 	font-size: var(--font-size-base);
-	color: rgba(255, 255, 255, 0.8);
 }
 
 /* ===== PARALLAX SECTION ===== */
@@ -190,7 +205,7 @@
 
 .parallax-content {
 	text-align: center;
-	color: white;
+	color: var(--color-text-primary);
 	z-index: var(--z-base);
 	padding: var(--space-2xl);
 }
@@ -334,8 +349,8 @@
 }
 
 .cta-button {
-	background: white;
-	color: #667eea;
+	background: var(--color-primary);
+	color: #fff;
 	padding: var(--space-md) var(--space-3xl);
 	border: none;
 	border-radius: var(--radius-full);
@@ -359,12 +374,45 @@
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	background: rgba(0, 0, 0, 0.8);
-	color: white;
+	background: rgba(255, 255, 255, 0.95);
+	color: var(--color-text-primary);
 	padding: var(--space-md);
 	border-radius: var(--radius-md);
 	font-size: var(--font-size-sm);
 	z-index: var(--z-fixed);
+	border: 1px solid var(--color-border-light);
+}
+
+/* ===== GALLERY STYLES ===== */
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: var(--space-lg);
+	align-items: start;
+	margin: var(--space-3xl) 0;
+	padding: 0;
+}
+
+.gallery-grid figure {
+	margin: 0;
+	background: var(--color-bg);
+	border: 1px solid var(--color-border-light);
+	border-radius: var(--radius-md);
+	overflow: hidden;
+}
+
+.gallery-grid img {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	background: #fff;
+}
+
+.gallery-grid figcaption {
+	padding: var(--space-sm) var(--space-md);
+	font-size: var(--font-size-sm);
+	color: var(--color-text-secondary);
 }
 
 /* ===== RESPONSIVE ADJUSTMENTS ===== */
@@ -394,4 +442,11 @@
 		grid-template-columns: 1fr;
 		gap: var(--space-lg);
 	}
+}
+
+/* Ensure page uses light background and dark readable text */
+body {
+	background: var(--color-bg-light);
+	color: var(--color-text-primary);
+	font-family: var(--font-family-base);
 }
